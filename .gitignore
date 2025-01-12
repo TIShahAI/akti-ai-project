@@ -1,0 +1,40 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+.env
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Mac system files
+.DS_Store
+
+# Python coverage reports
+.coverage
+coverage.xml
+*.coveragerc
+nosetests.xml
+pytest.xml
+*.hypothesis/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
