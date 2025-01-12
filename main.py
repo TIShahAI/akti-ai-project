@@ -4,6 +4,7 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
+    docs_url="/",
     title="Chatbot API",
     description="A simple chatbot API",
     version="0.1"
