@@ -3,5 +3,6 @@ langchain_openai
 langchain_community
 python-dotenv
 pypdf
-fastapi
+fastapi[all] 
+jinja2
 uvicorn
